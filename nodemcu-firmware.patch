@@ -1,0 +1,13 @@
+diff --git a/app/include/user_config.h b/app/include/user_config.h
+index 4866e6a9..8351eae3 100644
+--- a/app/include/user_config.h
++++ b/app/include/user_config.h
+@@ -46,7 +46,7 @@
+ // LUA_FLASH_STORE defines the default partition size if the NodeMCU partition
+ // tool is not used.
+ 
+-//#define LUA_FLASH_STORE                   0x10000
++#define LUA_FLASH_STORE                   0x10000
+ 
+ // By default Lua executes the file init.lua at start up.  The following
+ // define allows you to replace this with an alternative startup.  Warning:
