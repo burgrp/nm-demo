@@ -1,0 +1,3 @@
+#!/bin/sh
+
+git submodule foreach 'set -e; echo -n "Patching $name: "; git apply ../$name.patch; echo OK'
