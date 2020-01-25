@@ -1,15 +1,7 @@
 diff --git a/app/include/user_config.h b/app/include/user_config.h
-index 4866e6a9..9f3c5c77 100644
+index 4866e6a9..8351eae3 100644
 --- a/app/include/user_config.h
 +++ b/app/include/user_config.h
-@@ -1,6 +1,6 @@
- #ifndef __USER_CONFIG_H__
- #define __USER_CONFIG_H__
--
-+//zzz
- // The firmware supports a range of Flash sizes, though 4 Mbyte seems to be
- // the most common currently.  NodeMCU builds include a discovery function
- // which is enabled by FLASH_AUTOSIZE, but you can override this by commenting
 @@ -46,7 +46,7 @@
  // LUA_FLASH_STORE defines the default partition size if the NodeMCU partition
  // tool is not used.
