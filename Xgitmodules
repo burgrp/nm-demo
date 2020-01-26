@@ -1,4 +1,0 @@
-[submodule "nodemcu-firmware"]
-	path = nodemcu-firmware
-	url = https://github.com/nodemcu/nodemcu-firmware.git
-	branch = 3.0-master_20190907
