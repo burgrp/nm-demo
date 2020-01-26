@@ -2,5 +2,5 @@
 
 set -e
 cd nodemcu-firmware
-git diff >../nodemcu-firmware.patch
+git diff $(cat nm-version) >../nodemcu-firmware.patch
 
