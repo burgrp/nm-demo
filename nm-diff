@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -e
+cd nodemcu-firmware
+git diff >../nodemcu-firmware.patch
+

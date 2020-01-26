@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+VERSION=3.0-master_20190907
+
+git clone --recurse-submodules --branch $VERSION https://github.com/nodemcu/nodemcu-firmware.git 
+
+cd nodemcu-firmware
+git apply ../nodemcu-firmware.patch

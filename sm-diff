@@ -1,3 +1,0 @@
-#!/bin/sh
-
-git submodule foreach 'set -e; echo -n "Creating patch for $name: "; git diff >../$name.patch; cd ..; git add $name.patch; echo OK'
