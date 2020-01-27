@@ -1,8 +1,0 @@
-#!/bin/sh
-
-set -e
-
-git clone --recurse-submodules --branch $(cat nm-version) https://github.com/nodemcu/nodemcu-firmware.git 
-
-cd nodemcu-firmware
-git apply ../nodemcu-firmware.patch

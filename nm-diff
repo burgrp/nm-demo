@@ -1,6 +1,0 @@
-#!/bin/sh
-
-set -e
-cd nodemcu-firmware
-git diff $(cat nm-version) >../nodemcu-firmware.patch
-
