@@ -1,0 +1,3 @@
+return {
+    ledPin = 4
+}
