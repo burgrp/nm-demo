@@ -1,3 +1,1 @@
---function initApplication()
-    print("nazdar z apky! board LED pin: "..(df.board.ledPin or "(none)"))
---end
+print("nazdar z apky! board LED pin: "..(df.config.wifiLedPin() or "(none)"))
